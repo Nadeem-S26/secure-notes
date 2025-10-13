@@ -11,7 +11,14 @@ const app = express();
 // Middleware
 app.use(cors());
 app.use(express.json());
-
+// Find the cors configuration (around line 15)
+app.use(cors({
+  origin: [
+    'http://localhost:3000',
+    'https://secure-notes-umber.vercel.app/'
+  ],
+  credentials: true
+}));
 // MongoDB Connection
 mongoose.connect(process.env.MONGODB_URI, {
   useNewUrlParser: true,
