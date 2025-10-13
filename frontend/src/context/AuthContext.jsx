@@ -14,7 +14,7 @@ export const useAuth = () => {
 }
 
 // API Configuration
-const API_URL = 'http://localhost:5000/api'
+const API_URL = 'https://secure-notes-backend-pblm.onrender.com'
 // For production: const API_URL = 'https://your-backend.onrender.com/api'
 
 export const AuthProvider = ({ children }) => {

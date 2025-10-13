@@ -6,7 +6,7 @@ import NoteCard from './NoteCard'
 import NoteModal from './NoteModal'
 import styles from './Notes.module.css'
 
-const API_URL = 'http://localhost:5000/api'
+const API_URL = 'https://secure-notes-backend-pblm.onrender.com'
 
 const Notes = () => {
   const [notes, setNotes] = useState([])
