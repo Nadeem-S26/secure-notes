@@ -3,8 +3,8 @@
 Full-stack encrypted notes application with React & Node.js
 
 ## 🌐 Live Demo
-- **Frontend:** https://secure-notes-app.vercel.app
-- **Backend API:** https://secure-notes-backend.onrender.com
+- **Frontend:** YET TO BE ADDED
+- **Backend API:** YET TO BE ADDED
 
 ## 🚀 Features
 - User authentication with JWT
