@@ -10,8 +10,7 @@ const app = express();
 
 app.use(cors({
   origin: [
-    'http://localhost:3000',
-    'https://secure-notes-umber.vercel.app/login'
+    'https://secure-notes-umber.vercel.app'
   ],
   credentials: true
 }));
