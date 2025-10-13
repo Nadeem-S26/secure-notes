@@ -3,8 +3,7 @@
 Full-stack encrypted notes application with React & Node.js
 
 ## 🌐 Live Demo
-- **Frontend:** YET TO BE ADDED
-- **Backend API:** YET TO BE ADDED
+- **Frontend:** https://secure-notes-umber.vercel.app/
 
 ## 🚀 Features
 - User authentication with JWT
