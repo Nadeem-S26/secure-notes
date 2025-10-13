@@ -14,7 +14,7 @@ export const useAuth = () => {
 }
 
 // API Configuration
-const API_URL = 'https://secure-notes-backend-pblm.onrender.com'
+const API_URL = 'https://secure-notes-backend-pblm.onrender.com/api'
 
 export const AuthProvider = ({ children }) => {
   const [user, setUser] = useState(null)
